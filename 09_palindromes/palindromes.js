@@ -18,6 +18,10 @@ for (i = 0; i < lowerCaseString.length(); i++) {
 let reverseString = origString.split('').reverse().join('');
 
 return (origString.join('') == reverseString ? "is Palindrome" : "not Palindrome");
+
+// Most concise code
+// const processedString = testString.toLowerCase().replace(/[^a-z0-9]/g, "");
+// return processedString.split("").reverse().join("") == processedString;
 };
 
 // Do not edit below this line
